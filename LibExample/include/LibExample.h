@@ -7,6 +7,8 @@
 #   define API_EXPORTS
 #endif
 
+int API_EXPORTS Fibonacci(int n);
+
 class API_EXPORTS CDemoClass
 {
 public:

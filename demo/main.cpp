@@ -7,6 +7,8 @@ using namespace std;
 
 void TestImplicitLink()
 {
+    cout << Fibonacci(10) << endl;
+
     CDemoClass demo;
     demo.SetVal(5);
     cout << demo.GetVal() << endl;
